@@ -1,0 +1,49 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    color: #2E3192;
+    margin-top: 10px;
+}
+
+header h3 .big {
+    font-size: 200%;
+}
+
+header h3 .inc {
+    font-size: 80%;
+}
+
+header p {
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container a {
+    color: #800080;
+}
+
+.left-container, .right-container {
+    margin: 0 100px;
+}
+
+.left-container li, .right-container li{
+    margin: 15px auto 35px;
+}
